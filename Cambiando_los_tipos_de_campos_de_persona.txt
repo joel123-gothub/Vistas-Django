@@ -1,0 +1,25 @@
+
+C:\Users\lucien>D:
+
+D:\>cd ING.SISTEMAS\python\src
+
+D:\ING.SISTEMAS\python\src>project-prueba\Scripts\activate.bat
+(project-prueba) D:\ING.SISTEMAS\python\src>cd Personas
+
+(project-prueba) D:\ING.SISTEMAS\python\src\Personas>vim models.py
+
+(project-prueba) D:\ING.SISTEMAS\python\src\Personas>cd..
+(project-prueba) D:\ING.SISTEMAS\python\src>python manage.py makemigrations
+Migrations for 'personas':
+  personas\migrations\0002_auto_20200621_1657.py
+    - Alter field apellidos on persona
+    - Alter field edad on persona
+    - Alter field nombre on persona
+
+(project-prueba) D:\ING.SISTEMAS\python\src>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, personas, sessions
+Running migrations:
+  Applying personas.0002_auto_20200621_1657... OK
+
+(project-prueba) D:\ING.SISTEMAS\python\src>
